@@ -4,7 +4,7 @@ module.exports = {
   "host": process.env.HOST,
   "port": process.env.PORT,
   "migrations": [
-    "./dist/database/migrations/*.hs"
+    "./dist/database/migrations/*.js"
   ],
   "entities": [
     "./dist/models/*.js"
