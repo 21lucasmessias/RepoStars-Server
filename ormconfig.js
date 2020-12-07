@@ -4,13 +4,13 @@ module.exports = {
   "host": process.env.HOST,
   "port": process.env.PORT,
   "migrations": [
-    "./src/database/migrations/*.ts"
+    "./dist/database/migrations/*.hs"
   ],
   "entities": [
-    "./src/models/*.ts"
+    "./dist/models/*.js"
   ],
   "cli": {
-    "migrationsDir": "./src/database/migrations"
+    "migrationsDir": "./dist/database/migrations"
   },
   "username": process.env.ORM_USERNAME,
   "password": process.env.ORM_PASSWORD
