@@ -1,5 +1,4 @@
 import express from 'express';
-import path from 'path';
 import 'express-async-errors';
 
 import helmet from 'helmet';
@@ -20,4 +19,4 @@ app.use(routes);
 
 app.use(errorHandler);
 
-app.listen(3333);
+app.listen(process.env.PORT || 3333);
