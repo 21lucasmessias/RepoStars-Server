@@ -1,1 +1,1 @@
-https://topi-repo.herokuapp.com/
+https://repo-stars-server.herokuapp.com/
